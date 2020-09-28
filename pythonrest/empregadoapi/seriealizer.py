@@ -3,7 +3,7 @@
 from rest_framework import serializers
 from .models import Empregado
 
-Class SerEmpregado(serializers.ModelSerializer):
+Class EmpregadoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Empregado
         field = '__all__' # Se quiser só um ou outro campo é só usar: ('id', 'name')
