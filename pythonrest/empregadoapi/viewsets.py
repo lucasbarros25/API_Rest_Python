@@ -5,3 +5,4 @@ from . import serializers
 class EmpregadoVs(viewsets.ModelViewSet):
     queryset = models.Empregado.objects.all()
     serializer_class = serializers.EmpregadoSerializer
+
